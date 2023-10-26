@@ -1,0 +1,7 @@
+img{
+    width: 15px;
+}
+.checked{
+    background-image: url("labo6/images/check.png");
+    visibility: visible;
+}
