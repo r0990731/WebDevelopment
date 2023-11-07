@@ -1,0 +1,24 @@
+body {
+    font-family: verdana, serif;
+}
+header.blog {
+    background-repeat: no-repeat;
+    background-image: url("../images/header.jpg");
+    
+}
+h1.blogs {
+    color: white;
+    font-size: 30px
+}
+nav {
+    background-color: dimgray;
+}
+nav>a {
+    color: limegreen;
+    text-decoration: none;
+}
+h1.heading {
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+}
