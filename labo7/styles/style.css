@@ -1,0 +1,79 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100px;
+    float: right;
+}
+ul {
+    list-style-type: square;
+}
+.eigen {
+    float: left;
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 10px;
+    width: 980px;
+}
+.hobby {
+    float: left;
+    background-color: lightgray;
+    padding: 5px;
+    margin: 10px;
+    width: 980px;
+}
+.likes {
+    float: left;
+    background-color: lightcoral;
+    padding: 5px;
+    margin: 10px;
+    width: 980px;
+}
+.eigen>ul {
+    width: 800px;
+    float: left;
+    border: solid darkgreen 3px;
+    color: black;
+    font-family: verdana serif;
+    font-size: 20px;
+
+}
+.hobby>ul {
+    width: 800px;
+    float: left;
+    border: solid darkgray 3px;
+    color: black;
+    font-family: verdana serif;
+    font-size: 20px;
+}
+.likes>ul {
+    width: 800px;
+    float: left;
+    border: solid red 3px;
+    color: black;
+    font-family: verdana serif;
+    font-size: 20px;
+}
+.eigen>h2 {
+    font-family: Arial serif;
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+.hobby>h2 {
+    font-family: Arial serif;
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+.likes>h2 {
+    font-family: Arial serif;
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+}
+.spr {
+    margin-bottom: 95px;
+}
