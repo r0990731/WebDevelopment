@@ -1,24 +1,59 @@
 body {
     font-family: verdana, serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
 }
 header.blog {
     background-repeat: no-repeat;
     background-image: url("../images/header.jpg");
-    
+    background-size: auto;
+
 }
 h1.blogs {
     color: white;
-    font-size: 30px
+    font-size: 30px;
+    padding-bottom: 60px;
+    margin:0px;
 }
 nav {
     background-color: dimgray;
+    margin-top: 0px;
 }
 nav>a {
     color: limegreen;
     text-decoration: none;
+    padding: 5px 2px 2px;
 }
 h1.heading {
     color: black;
     font-size: 20px;
     text-decoration: underline;
+}
+.article1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px 5px 5px;
+}
+.article2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px 5px 5px;
+}
+.article3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px 5px 5px;
+}
+.article4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding: 20px 5px 5px;
+}
+.footer>a {
+    color: blue;
 }
