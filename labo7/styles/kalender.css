@@ -1,0 +1,61 @@
+body {
+    font-family: arial serif;
+    font-size: 25px
+}
+.tabel {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+thead {
+    background-color: rgb(170,170,200);
+}
+.dagen {
+    border-style: dotted;
+    border-color: black;
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+.week1 :first-child {
+    background-color: lightgray;
+    color: darkgray;
+}
+.week5 :nth-last-child(3) {
+    background-color: lightgray;
+    color: darkgray;
+}
+.week5 :nth-last-child(2) {
+    background-color: lightgray;
+    color: darkgray;
+}
+.week5 :nth-last-child(1) {
+    background-color: lightgray;
+    color: darkgray;
+}
+.week3 :nth-last-child(5) {
+    background-color:  rgb(250,120,120);
+}
+.week1 :last-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week2 :last-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week3 :last-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week4 :last-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week2 :first-child {
+     background-color:  rgb(255, 220, 220);
+ }
+.week3 :first-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week4 :first-child {
+    background-color:  rgb(255, 220, 220);
+}
+.week5 :first-child {
+    background-color:  rgb(255, 220, 220);
+}
