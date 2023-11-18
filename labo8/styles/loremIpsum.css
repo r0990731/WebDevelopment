@@ -1,0 +1,15 @@
+section {
+
+    padding: 10px;
+    width: 50%;
+}
+.lorem {
+    border: 1px solid black;
+    box-sizing: border-box;
+    float:left;
+}
+.s2 {
+    border: 1px solid black;
+    box-sizing: border-box;
+    float:right;
+}
