@@ -7,12 +7,12 @@ article {
     display: inline-block;
     border: black solid 1px;
 }
-main>article:nth-child(even) img {
+article:nth-child(even) img {
     display: inline-block;
     margin: 10px;
     float: right;
 }
-main>article:nth-child(odd) img {
+article:nth-child(odd) img {
     display: block;
     margin: 10px;
     float: left;
