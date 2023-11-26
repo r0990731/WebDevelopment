@@ -1,0 +1,19 @@
+main {
+    font-size: 1.25em;
+    width: 600px;
+}
+article {
+    margin: 10px;
+    display: inline-block;
+    border: black solid 1px;
+}
+main>article:nth-child(even) img {
+    display: inline-block;
+    margin: 10px;
+    float: right;
+}
+main>article:nth-child(odd) img {
+    display: block;
+    margin: 10px;
+    float: left;
+}
