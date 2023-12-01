@@ -1,0 +1,8 @@
+.container-fluid:first-child .col-md-3 {
+    background-color: rgb(128, 128, 128);
+}
+.container-fluid:first-child .col-md-6 {
+    background-color: darkgrey;
+
+}
+
