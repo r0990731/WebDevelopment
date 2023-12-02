@@ -1,10 +1,16 @@
-.container-fluid .row:first-child .col-md-3 {
-    background-color: rgb(128, 128, 128);
-    height: 100px;
-    
-}
-.container-fluid .row:first-child .col-md-6 {
+.col-md-3 {
     background-color: darkgrey;
+    height: 200px;
+    border: 15px white;
+}
+.col-md-6 {
+    background-color: grey;
+    height: 200px;
 
 }
-
+.row {
+    margin: 15px;
+}
+div {
+    border: 10px white;
+}
