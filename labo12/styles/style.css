@@ -13,6 +13,7 @@ footer a {
     color: #FFFFFF;
 }
 nav{
+    color: #ddaa00;
     background-color: #ccc;
     padding: 5px 2px;
 }
@@ -26,10 +27,14 @@ body {
 }
 section {
     margin: 5px;
+    background-color: white;
 }
 nav a {
+    color: #ddaa00;
+    text-decoration: none;
     margin: 0 5px;
-    border: 1px #cccccc;
+    border: solid 1px #cccccc;
+    background-color: white;
 }
 h1 {
     margin: 0;
@@ -38,5 +43,10 @@ img {
     margin: 0;
 }
 section a {
-    border: 1px #cccccc;
+    border: solid 1px #cccccc;
+    color: #cccccc;
+    text-decoration: none;
+}
+@media screen and (min-width: 701px) {
+
 }
