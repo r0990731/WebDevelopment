@@ -1,0 +1,42 @@
+html {
+    background-color: #333;
+    font-family: helvetica, serif;
+}
+
+* {
+    padding: 10px;
+}
+header, footer {
+    background: #ddaa00
+}
+footer a {
+    color: #FFFFFF;
+}
+nav{
+    background-color: #ccc;
+    padding: 5px 2px;
+}
+main {
+    background-color: grey;
+}
+body {
+    font-size: 1em;
+    font-family: helvetica, serif;
+    margin: 5px;
+}
+section {
+    margin: 5px;
+}
+nav a {
+    margin: 0 5px;
+    border: 1px #cccccc;
+}
+h1 {
+    margin: 0;
+}
+img {
+    margin: 0;
+}
+section a {
+    border: 1px #cccccc;
+}
