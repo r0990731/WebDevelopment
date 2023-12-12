@@ -1,5 +1,5 @@
 html {
-    background-color: #333;
+    background-color: white;
     font-family: helvetica, serif;
 }
 
@@ -23,7 +23,7 @@ main {
 body {
     font-size: 1em;
     font-family: helvetica, serif;
-    margin: 5px;
+    padding: 5px;
 }
 section {
     margin: 5px;
