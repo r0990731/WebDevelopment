@@ -9,6 +9,9 @@ html {
 header, footer {
     background: #ddaa00
 }
+footer {
+    text-align: center;
+}
 footer a {
     color: #FFFFFF;
 }
@@ -16,6 +19,8 @@ nav{
     color: #ddaa00;
     background-color: #ccc;
     padding: 5px 2px;
+    display: flex;
+    justify-content: space-evenly;
 }
 main {
     background-color: grey;
@@ -35,9 +40,16 @@ nav a {
     margin: 0 5px;
     border: solid 1px #cccccc;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 1px;
+    flex-wrap: wrap;
 }
 h1 {
     margin: 0;
+    text-align: center;
 }
 img {
     margin: 0;
@@ -47,6 +59,19 @@ section a {
     color: #cccccc;
     text-decoration: none;
 }
+main a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 701px) {
-
+    main{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
