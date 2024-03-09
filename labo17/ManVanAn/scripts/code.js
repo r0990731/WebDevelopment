@@ -26,6 +26,22 @@ const indexOf = ()=>{
     console.log("Het woord 'an' komt " + teller + " keer voor met indexOf()")
 }
 const lastIndexOf = () =>{
-
+    let tekst = "De man van An geeft geen hand aan ambetante verwanten"
+    tekst.toLowerCase()
+    let index = tekst.length
+    let i = tekst.length
+    let teller = 0
+    let doorgelopen = false
+    while(i>0 && !doorgelopen){
+        if(tekst.lastIndexOf("an",index)!==-1){
+            index = tekst.lastIndexOf("an",index)-1
+            teller ++
+            i--
+        }
+        else{
+            doorgelopen = true
+        }
+    }
+    console.log("Het woord 'an' komt " + teller + " keer voor met lastIndexOf()")
 }
 window.addEventListener("load", setup);
