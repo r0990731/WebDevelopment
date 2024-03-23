@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
 }
-article{
+#kader{
     border: 2px solid grey;
     padding: 10px;
     display: flex;
@@ -19,4 +19,8 @@ article{
 span{
     display: inline-block;
     margin-left: 10px;
+}
+#saveKnop{
+    display: flex;
+    flex-direction: column-reverse;
 }

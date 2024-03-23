@@ -46,7 +46,7 @@ const opslaan = () => {
     kleurBlock.className = "color"
 
     let Xknop = document.createElement("input")
-    Xknop.setAttribute('type', button)
+    Xknop.setAttribute('type', 'button')
     Xknop.setAttribute('value', "X")
     Xknop.className = "verwijderenKnop"
 
@@ -64,8 +64,8 @@ const opslaan = () => {
 
     color[color.length-1].style.backgroundColor=rgb
 
-    let verwijderKnop = document.querySelectorAll(".verwijderKnop")
-    for(let i = 0; i<verwijerKnop.lenth; i++){
+    let verwijderKnop = document.querySelectorAll(".verwijderenKnop")
+    for(let i = 0; i<verwijderKnop.length; i++){
         verwijderKnop[i].addEventListener("click", verwijderenVanBlok)
     }
 }
