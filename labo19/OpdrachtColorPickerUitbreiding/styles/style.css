@@ -6,8 +6,7 @@
     border-radius: 10px;
 }
 .block{
-    display: flex;
-    align-items: center;
+    display: inline-block;
 }
 #kader{
     border: 2px solid grey;
@@ -21,6 +20,5 @@ span{
     margin-left: 10px;
 }
 #saveKnop{
-    display: flex;
-    flex-direction: column-reverse;
+    position: absolute;
 }
