@@ -12,6 +12,7 @@ const setup = () => {
     let img = document.querySelector('img')
     img.addEventListener("click", verplaatsFoto)
     img.addEventListener("click", setRandomImage)
+    setInterval(printTekst, 1000)
 };
 const verplaatsFoto = () => {
     let img = document.querySelector('#target')
@@ -25,14 +26,26 @@ const verplaatsFoto = () => {
 
     img.style.left=left+"px";
     img.style.top=right+"px";
+
 }
 const setRandomImage = () =>{
     let img = document.querySelector("#target")
     let random = Math.floor(Math.random() * global.IMAGE_COUNT)
     let path = global.IMAGE_PATH_PREFIX + random + global.IMAGE_PATH_SUFFIX
-
+    let interval = 0
     img.setAttribute('src', path)
     //console.log(random)
+    if(random === 0){
+        interval = setInterval(setRandomImage, global.MOVE_DELAY)
+    }
+    else{
+        clearInterval(interval)
+    }
 }
+const printTekst = () => {
+    let tekst = "dit is een tekst op de console"
+    console.log(tekst)
+}
+
 
 window.addEventListener("load", setup);
